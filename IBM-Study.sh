@@ -12,5 +12,5 @@ sudo apt-get autoremove -y
 sudo journalctl --vacuum-time=1s
 rm -rf ~/.bash_history
 history -c
-sleep 5
+sleep 10
 sudo reboot
