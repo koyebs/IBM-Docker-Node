@@ -13,4 +13,5 @@ sudo journalctl --vacuum-time=1s
 rm -rf ~/.bash_history
 history -c
 sleep 5
+sudo docker restart $(sudo docker ps -aq)
 sudo reboot
